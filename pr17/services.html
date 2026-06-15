@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <div class="logo">Vertex Architects</div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О бюро</a>
+            <a href="projects.html">Проекты</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="blog.html">Блог</a>
+        </nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </div>
+        <div class="paralax">
+            <div>
+                <div class="zag1">
+                    <h1>Vertex Architects</h1>
+                    <h3 class="pod">Современная архитектура: формы, тренды, вдохновение</h3>
+                </div>
+                <div>
+                    <button type="submit" class="button1">Узнать проекты</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="lastt"><h1>Услуги</h1></div>
+        <hr class="lineee">
+        <div class="service" id="usluga1">
+            <img src="img/usluga1.jpg" alt="">
+            <div class="textt">
+                <h2>Концептуальное проектирование</h2>
+                <a href="#usluga1">Подробнее</a>
+                <div class="text">
+                    <p>Разрабатываем идею, эскизы, 3D-визуализации. Срок: 4–8 недель.</p>
+                </div>
+            </div>
+        </div> 
+        <div class="service" id="usluga2">
+            <div class="textt">
+                <h2>Архитектурное проектирование</h2>
+                <a href="#usluga2">Подробнее</a>
+                <div class="text">
+                    <p>Полный комплект чертежей стадии «П», прохождение экспертизы. Срок: от 3 месяцев.</p>
+                </div>
+            </div>
+            <img src="img/usluga2.jpg" alt="">
+        </div>
+        <div class="service" id="usluga3">
+            <img src="img/usluga3.jpg" alt="">
+            <div class="textt">
+                <h2>BIM-моделирование</h2>
+                <a href="#usluga3">Подробнее</a>
+                <div class="text">
+                    <p>Цифровая модель здания в Revit. Спецификации, коллизии, 4D-план стройки.</p>
+                </div>
+            </div>
+        </div>
+        <div class="service" id="usluga4">
+            <div class="textt">
+                <h2>Дизайн интерьеров</h2>
+                <a href="#usluga4">Подробнее</a>
+                <div class="text">
+                    <p>Подбор материалов, мебели, света. Ведомость отделки. Срок: 6–12 недель.</p>
+                </div>
+            </div>
+            <img src="img/usluga4.jpg" alt="">
+        </div>
+        <div class="service" id="usluga5">
+            <img src="img/usluga5.jpg" alt="">
+            <div class="textt">
+                <h2>Авторский надзор</h2>
+                <a href="#usluga5">Подробнее</a>
+                <div class="text">
+                    <p>Контроль стройки, выезды на объект, проверка соответствия проекту. Защита интересов заказчика до сдачи.</p>
+                </div>
+            </div>
+        </div>
+        <div class="service" id="usluga6">
+            <div class="textt">
+                <h2>Мастер-планирование</h2>
+                <a href="#usluga6">Подробнее</a>
+                <div class="text">
+                    <p>Развитие территорий от 2 Га. Кварталы, районы, кластеры. Транспорт, зонирование, ТЭПы.</p>
+                </div>
+            </div>
+            <img src="img/usluga6.jpg" alt="">
+        </div>  
+    </main>
+    <footer>
+        <div class="headerr-logo">
+            <div class="logo">Vertex Architects</div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О бюро</a>
+            <a href="projects.html">Проекты</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="blog.html">Блог</a>
+        </nav>
+        </div>
+    </footer>
+    <script>
+        const burger = document.querySelector('.burger');
+        const menu = document.querySelector('.menu');
+
+        burger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            burger.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

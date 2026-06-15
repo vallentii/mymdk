@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <div class="logo">Vertex Architects</div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О бюро</a>
+            <a href="projects.html">Проекты</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="blog.html">Блог</a>
+        </nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </div>
+        <div class="paralax">
+            <div>
+                <div class="zag1">
+                    <h1>Vertex Architects</h1>
+                    <h3 class="pod">Современная архитектура: формы, тренды, вдохновение</h3>
+                </div>
+                <div>
+                    <button type="submit" class="button1">Узнать проекты</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="lastt"><h1>Обратная связь</h1></div>
+        <hr class="lineee">
+        <div id="el5" class="backforma">
+            <div class="form-wrapper">
+            <form id="regForm">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="+7 999 666 77 00" required>
+                <textarea placeholder="Ваше сообщение" required></textarea>
+                <button class="button4" type="submit">Отправить</button>
+            </form>
+        </div>
+        </div>
+        <div>
+            <img src="img/map.png" class="map" alt="">
+        </div>
+        <div class="requisites">
+            <div class="lastt"><h2>Реквезиты</h2></div>
+            <hr class="lineee">
+            <p>ООО «Вертекс Архитектс»</p>
+            <p>ИНН: 7701234567</p>
+            <p>КПП: 770101001</p>
+            <p>ОГРН: 1107746123456</p>
+            <p>Юр. адрес: 119034, г. Москва, ул. Остоженка, д. 25, офис 42</p>
+            <p>Тел: +7 (495) 123-45-67</p>
+            <p>Email: info@vertex-architects.ru</p>
+            <p>Пн–Пт: 10:00–19:00</p>
+        </div>
+    </main>
+    <footer>
+        <div class="headerr-logo">
+            <div class="logo">Vertex Architects</div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О бюро</a>
+            <a href="projects.html">Проекты</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="blog.html">Блог</a>
+        </nav>
+        </div>
+    </footer>
+    <script>
+        const burger = document.querySelector('.burger');
+        const menu = document.querySelector('.menu');
+
+        burger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            burger.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <div class="logo">Vertex Architects</div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О бюро</a>
+            <a href="projects.html">Проекты</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="blog.html">Блог</a>
+        </nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </div>
+        <div class="paralax">
+            <div>
+                <div class="zag1">
+                    <h1>Vertex Architects</h1>
+                    <h3 class="pod">Современная архитектура: формы, тренды, вдохновение</h3>
+                </div>
+                <div>
+                    <button type="submit" class="button1">Узнать проекты</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="lastt"><h1>Портфолио</h1></div>
+        <hr class="lineee">
+        <div class="slider">
+            <img class="imgss" src="img/1kart.jpg" alt="">
+            <img class="imgss" src="img/2kart.jpg" alt="">
+            <img class="imgss" src="img/3kart.jpg" alt="">
+            <img class="imgss" src="img/11kart.jpg" alt="">
+            <img class="imgss" src="img/22kart.jpg" alt="">
+            <img class="imgss" src="img/33kart.jpg" alt="">
+        </div>
+    </main>
+    <footer>
+        <div class="headerr-logo">
+            <div class="logo">Vertex Architects</div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О бюро</a>
+            <a href="projects.html">Проекты</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="blog.html">Блог</a>
+        </nav>
+        </div>
+    </footer>
+    <script>
+        const burger = document.querySelector('.burger');
+        const menu = document.querySelector('.menu');
+
+        burger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            burger.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

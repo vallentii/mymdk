@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <div class="logo">Vertex Architects</div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О бюро</a>
+            <a href="projects.html">Проекты</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="blog.html">Блог</a>
+        </nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </div>
+        <div class="paralax">
+            <div>
+                <div class="zag1">
+                    <h1>Vertex Architects</h1>
+                    <h3 class="pod">Современная архитектура: формы, тренды, вдохновение</h3>
+                </div>
+                <div>
+                    <button type="submit" class="button1">Узнать проекты</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="lastt"><h1>Статьи</h1></div>
+        <hr class="lineee">
+        <div class="filter-bar">
+            <a href="#stat1" class="block"><h1>Статья 1</h1></a>
+            <a href="#stat2" class="block"><h1>Статья 2</h1></a>
+            <a href="#stat3" class="block"><h1>Статья 3</h1></a>
+        </div>
+        <div id="stat1"></div>
+        <div id="stat2"></div>
+        <div id="stat3"></div>
+        <div class="grid-kartt">
+             <div class="blogkart stat1">
+                <img src="img/blog1.webp" alt="Биоклиматическая архитектура">
+                <h2 class="ppp">12 июня 2026</h2>
+                <h3>Тренды 2026: биоклиматическая архитектура</h3>
+                <p>Биоклиматическая архитектура стала обязательным стандартом для девелоперов. Три ключевых направления меняют подход к проектированию. Пассивное охлаждение — правильная ориентация здания, солнцезащитные ламели и тепловая инерция бетона снижают нагрузку на кондиционирование на 30–40%. Зелёные фасады — растения поглощают CO₂, снижают нагрев стен на 5–8°C и гасят до 10 децибел городского шума. Природная вентиляция — атриумы и двойные фасады позволяют зданию дышать, снижая энергопотребление и улучшая качество воздуха. Вывод: биоклиматический подход — это инвестиция в комфорт и снижение эксплуатационных расходов.</p>
+            </div>
+            <div class="blogkart stat2">
+                <img src="img/11kart.jpg" alt="BIM на стройке">
+                <h2 class="ppp">28 мая 2026</h2>
+                <h3>BIM на стройке: кейс ЖК «Северная звезда»</h3>
+                <p>ЖК «Северная звезда» — 48 000 м², 24 этажа, 486 квартир. Проект вели в Revit с детализацией LOD 400. Цифровая модель выявила 247 коллизий инженерных систем с конструкциями ещё до выхода на площадку — каждая могла обернуться простоем и лишними расходами. Мы устранили всё на этапе проектирования. 4D-планирование позволило привязать модель к графику стройки: прораб видел на планшете объём работ на сегодня и расположение бригад через неделю. Срок монолита сократился на 18%. Спецификации материалов генерировались из модели автоматически, смета сошлась с точностью до 2%. Итог: объект сдан на два месяца раньше срока.</p>
+            </div>
+            <div class="blogkart stat3">
+                <img src="img/blog3.webp" alt="Реновация vs Реставрация">
+                <h2 class="ppp">10 апреля 2026</h2>
+                <h3>Реновация vs Реставрация: работа с наследием</h3>
+                <p>Клубный дом «Тихая гавань» находится в историческом квартале XIX века. Задача: вписать современное здание в охранную зону без имитации старины. Мы отказались от прямого цитирования фасадов. Использовали кирпич ручной формовки — тот же материал, что и два века назад, но с современной геометрией проёмов. Высота карниза совпадает с соседними зданиями — дом встроился в уличный фронт органично. Во дворе сохранили четыре липы старше ста лет, фундамент обошёл корни, дренаж защитил от подтопления. Проект прошёл три раунда в Департаменте культурного наследия и получил премию «Архнаследие» за 2023 год.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="headerr-logo">
+            <div class="logo">Vertex Architects</div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О бюро</a>
+            <a href="projects.html">Проекты</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="blog.html">Блог</a>
+        </nav>
+        </div>
+    </footer>
+    <script>
+        const burger = document.querySelector('.burger');
+        const menu = document.querySelector('.menu');
+
+        burger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            burger.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <div class="logo">Vertex Architects</div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О бюро</a>
+            <a href="projects.html">Проекты</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="blog.html">Блог</a>
+        </nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </div>
+        <div class="paralax">
+            <div>
+                <div class="zag1">
+                    <h1>Vertex Architects</h1>
+                    <h3 class="pod">Современная архитектура: формы, тренды, вдохновение</h3>
+                </div>
+                <div>
+                    <button type="submit" class="button1">Узнать проекты</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="el3" class="info">
+            <div class="infos">
+                <h1>О нас</h1>
+                <hr class="line">
+                <p class="pp">Мы создаём продуманные и гармоничные пространства — от частных домов до общественных зданий. В нашей команде работают архитекторы, инженеры и дизайнеры, поэтому проект получается целостным: эстетика сочетается с надёжностью и удобством. Проходим с клиентом весь путь — от первых эскизов до авторского надзора на стройке. Верим, что архитектура должна улучшать повседневную жизнь и отвечать реальным потребностям людей</p>
+            </div>
+            <img class="imgss" src="img/onas.jfif" alt="">
+        </div>
+        <div class="last"><h1>Последние проекты</h1></div>
+        <hr class="linee">
+        <div class="grid-kart">
+            <div class="kart22">
+                <img src="img/1kart.jpg" alt="">
+                <h3>«Зелёный квартал: эко-дома</h3>
+            </div>
+            <div class="kart22">
+                <img src="img/2kart.jpg" alt="">
+                <h3>Парящий дом у озера</h3>
+            </div>
+            <div class="kart22">
+                <img src="img/3kart.jpg" alt="">
+                 <h3>Биодом: интеграция с ландшафтом</h3>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="headerr-logo">
+            <div class="logo">Vertex Architects</div>
+        <nav class="menu">
+            <a href="#el1">Главная</a>
+            <a href="about.html">О бюро</a>
+            <a href="projects.html">Проекты</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="blog.html">Блог</a>
+        </nav>
+        </div>
+    </footer>
+    <script>
+        const burger = document.querySelector('.burger');
+        const menu = document.querySelector('.menu');
+
+        burger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            burger.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

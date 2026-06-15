@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <div class="logo">Vertex Architects</div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О бюро</a>
+            <a href="projects.html">Проекты</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="blog.html">Блог</a>
+        </nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </div>
+        <div class="paralax">
+            <div>
+                <div class="zag1">
+                    <h1>Vertex Architects</h1>
+                    <h3 class="pod">Современная архитектура: формы, тренды, вдохновение</h3>
+                </div>
+                <div>
+                    <button type="submit" class="button1">Узнать проекты</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="lastt"><h1>Проекты</h1></div>
+        <hr class="lineee">
+        <div class="filter-bar">
+            <a href="#residential" class="block"><h1>Жилые</h1></a>
+            <a href="#commercial" class="block"><h1>Коммерческие</h1></a>
+            <a href="#public" class="block"><h1>Общественные</h1></a>
+        </div>
+        <div id="residential"></div>
+        <div id="commercial"></div>
+        <div id="public"></div>
+        <div class="grid-kart">
+            <div class="kart22 residential">
+                <img src="img/11kart.jpg" alt="">
+                <h3>ЖК «Северная звезда»</h3>
+                <p class="ppp">2024</p>
+            </div>
+            <div class="kart22 residential">
+                <img src="img/22kart.jpg" alt="">
+                <h3>Клубный дом «Тихая гавань»</h3>
+                <p class="ppp">2023</p>
+            </div>
+            <div class="kart22 residential">
+                <img src="img/33kart.jpg" alt="">
+                <h3>Резиденция «Сосновый бор»</h3>
+                <p class="ppp">2022</p>
+            </div>
+            <div class="kart22 commercial">
+                <img src="img/4kart.jpg" alt="">
+                <h3>Бизнес-центр «Стеклянный куб»</h3>
+                <p class="ppp">2024</p>
+            </div>
+            <div class="kart22 commercial">
+                <img src="img/5kart.jpg" alt="">
+                <h3>ТК «Городская площадь»</h3>
+                <p class="ppp">2023</p>
+            </div>
+            <div class="kart22 commercial">
+                <img src="img/6kart.jpg" alt="">
+                <h3>Офисный парк «Технополис»</h3>
+                <p class="ppp">2022</p>
+            </div>
+            <div class="kart22 public">
+                <img src="img/7kart.jpg" alt="">
+                <h3>Культурный центр «Маяк»</h3>
+                <p class="ppp">2024</p>
+            </div>
+            <div class="kart22 public">
+                <img src="img/8kart.jpg" alt="">
+                <h3>Школа искусств «Гармония»</h3>
+                <p class="ppp">2023</p>
+            </div>
+            <div class="kart22 public">
+                <img src="img/9kart.jpg" alt="">
+                <h3>Спорткомплекс «Олимп»</h3>
+                <p class="ppp">2022</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="headerr-logo">
+            <div class="logo">Vertex Architects</div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О бюро</a>
+            <a href="projects.html">Проекты</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="blog.html">Блог</a>
+        </nav>
+        </div>
+    </footer>
+    <script>
+        const burger = document.querySelector('.burger');
+        const menu = document.querySelector('.menu');
+
+        burger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            burger.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
